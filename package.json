@@ -1,0 +1,23 @@
+{
+  "name": "interview-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "jest --config ./jest.config.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.0.0",
+    "dotenv": "^16.5.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.3.4",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "zod": "^3.25.58"
+  }
+}
