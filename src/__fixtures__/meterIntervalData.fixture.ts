@@ -55,7 +55,6 @@ export const meterIntervalDataFixture: SupplyPointDataResponse["data"]["supplyPo
           flagType: "ACTUAL",
         },
       },
-
       {
         node: {
           __typename: "IntervalBlock",
@@ -66,6 +65,45 @@ export const meterIntervalDataFixture: SupplyPointDataResponse["data"]["supplyPo
           registerId: "E1",
           unitOfMeasurement: "KWH",
           usageCategory: "INTERVAL",
+          flagType: "ACTUAL",
+        },
+      },
+      {
+        node: {
+          __typename: "IntervalBlock",
+          id: "4",
+          startDateTime: "2025-02-20T00:30:00.000Z",
+          endDateTime: "2025-02-20T01:00:00.000Z",
+          block: "40",
+          registerId: "E1",
+          unitOfMeasurement: "KWH",
+          usageCategory: "INTERVAL",
+          flagType: "ACTUAL",
+        },
+      },
+      {
+        node: {
+          __typename: "IntervalBlock",
+          id: "5",
+          startDateTime: "2025-02-20T01:00:00.000Z",
+          endDateTime: "2025-02-20T01:30:00.000Z",
+          block: "0",
+          registerId: "E1",
+          unitOfMeasurement: "KWH",
+          usageCategory: "INTERVAL",
+          flagType: "ACTUAL",
+        },
+      },
+      {
+        node: {
+          __typename: "IntervalBlock",
+          id: "6",
+          startDateTime: "2025-02-20T01:00:00.000Z",
+          endDateTime: "2025-02-20T01:30:00.000Z",
+          block: "2",
+          registerId: "B1",
+          unitOfMeasurement: "KWH",
+          usageCategory: "SOLAR",
           flagType: "ACTUAL",
         },
       },
