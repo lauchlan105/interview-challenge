@@ -16,3 +16,6 @@ Next
 - Build on solution to aggregate data by month/year
 - Write tests for this enhancement
 
+# Notes
+In this example, the JSON data is hosted on [JSONsilo](https://jsonsilo.com/) - a free website for hosting static JSON files.
+It provides an endpoint to fetch the data from, which can be public or private (requiring an API key in the headers).
