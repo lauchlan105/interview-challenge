@@ -8,7 +8,7 @@ export class Validator {
       return result.data;
     } else {
       throw new Error(
-        `Validation failed: ${JSON.stringify(result.error.format(), null, 2)}`,
+        `Validation failed: ${JSON.stringify(result.error, null, 2)}`,
       );
     }
   }
